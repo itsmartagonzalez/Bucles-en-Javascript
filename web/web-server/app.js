@@ -1,4 +1,9 @@
 /**
+ * University of La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Computer Ingenieering Degree
+ * Programación de Aplicaciones Interactivas
+ *
  * @author Marta Julia González Padrón
  * @since 10.mar.2021
  * @description File that deploys the web.

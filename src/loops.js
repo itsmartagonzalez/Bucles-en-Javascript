@@ -6,7 +6,7 @@
  *
  * @author Marta Julia González Padrón
  * @since 10.feb.2021
- * @description Investigation of multiple loops for arrays in Javascript on Node
+ * @description Investigation of multiple loops in Javascript using Node
  */
 
 'use strict';
@@ -23,7 +23,7 @@ comparisonOfLoops();
  * available in Javascript and compare their execution's time
  */
 function comparisonOfLoops() {
-  let array = new Array(1000000);
+  let array = new Array(10000000);
   console.log(`Execution time of the different loops with an array of ${array.length} elements:
               For loop: ${forLoop(array)} ms
               For-in loop: ${forInLoop(array)} ms

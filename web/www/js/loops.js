@@ -6,7 +6,7 @@
  *
  * @author Marta Julia González Padrón
  * @since 10.feb.2021
- * @description Investigation of multiple loops for arrays in Javascript on the browser
+ * @description Investigation of multiple loops in Javascript using a browser
  */
 
 'use strict';
