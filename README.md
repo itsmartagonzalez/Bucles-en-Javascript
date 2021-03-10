@@ -62,7 +62,7 @@ Para esta investigación, se ha utilizado un array con *10.000.000* elementos y 
 
 ___
 ## Conclusión
-A mi sorpresa, la rapidez de cada una de las sentencias varía de un entorno a otro. En *Node*, parece ser que el **for** clásico es con diferencia el más veloz en comparación con los demás. En *Safari*, la sentencia más rápida es la misma, incluso se ejecutan los bucles en menos tiempo que en *Node*, menos para la sentencia **for-in** que tiene un comportamiento mucho mas lento en *Safari*. En *Chrome*, estos resultados cambian y muestran como la sentencia **for-of** es la más rápida, ya no solo en este navegador sino en en comparación con el resto de entornos también.
+A mi sorpresa, la rapidez de cada una de las sentencias varía de un entorno a otro. En *Node*, parece ser que el **for** clásico es con diferencia el más veloz en comparación con los demás. En *Safari*, la sentencia más rápida es el *forEach*, además se ejecutan los bucles en menos tiempo que en *Node*, menos para la sentencia **for-in** que tiene un comportamiento mucho mas lento en *Safari*. En *Chrome*, estos resultados también cambian y muestran como la sentencia **for-of** es la más rápida, ya no solo en este navegador sino en en comparación con el resto de entornos también.
 
 Si analizamos los diferentes entornos entre ellos, se ve claramente que **Chrome** tiene una mayor rapidez a la hora de recorrer bucles grandes.
 
