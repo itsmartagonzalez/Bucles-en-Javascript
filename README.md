@@ -7,7 +7,7 @@ ___
 Estos bucles le dan al usuario acceso al índice del elemento que se está recorriendo.
 
 ```js
-for (let element = 0; element < array.length;element++) {
+for (let element = 0; element < array.length; element++) {
   array[element] = element + 1;
 }
 ```
@@ -41,7 +41,7 @@ array.forEach(element => element = 1);
 aunque también es posible acceder al índice añadiendo un argumento más:
 
 ```js
-array.forEach((element, index) => element += index );
+array.forEach((element, index) => element += index);
 ```
 
 Cabe destacar que la sentencia *forEach* sirve para recorrer pero no para modificar valores. En nuestro caso *element* es una copia de el elemento original. Existen otros métodos para esto.
